@@ -1,0 +1,18 @@
+{
+  "synthetic_only": true,
+  "seed": 5102026,
+  "independent_constrained_comparisons": 480,
+  "max_cost_discrepancy": 9.620748642191757e-11,
+  "binding_cases": 425,
+  "slack_cases": 55,
+  "zero_effort_class_cases": 290,
+  "global_policy": [
+    1,
+    1
+  ],
+  "own_recipient_and_shadow_derivatives": "PASS",
+  "finite_choice_checks": "PASS",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0"
+}

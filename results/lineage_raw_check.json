@@ -1,0 +1,218 @@
+{
+  "status": "synthetic second-checker PASS",
+  "conditional_terminal_minima": 668,
+  "root_mask_information_cells": 24,
+  "asymmetric_prior_routing_cases": 8,
+  "rows": [
+    {
+      "A": 0,
+      "mask": 0,
+      "information": "opaque",
+      "operating": "9/20",
+      "full_price_root_total": "9/20"
+    },
+    {
+      "A": 0,
+      "mask": 0,
+      "information": "late",
+      "operating": "2/5",
+      "full_price_root_total": "2/5"
+    },
+    {
+      "A": 0,
+      "mask": 0,
+      "information": "early",
+      "operating": "2/5",
+      "full_price_root_total": "101/200"
+    },
+    {
+      "A": 0,
+      "mask": 1,
+      "information": "opaque",
+      "operating": "9/40",
+      "full_price_root_total": "81/200"
+    },
+    {
+      "A": 0,
+      "mask": 1,
+      "information": "late",
+      "operating": "9/40",
+      "full_price_root_total": "81/200"
+    },
+    {
+      "A": 0,
+      "mask": 1,
+      "information": "early",
+      "operating": "1/5",
+      "full_price_root_total": "97/200"
+    },
+    {
+      "A": 0,
+      "mask": 2,
+      "information": "opaque",
+      "operating": "9/40",
+      "full_price_root_total": "49/40"
+    },
+    {
+      "A": 0,
+      "mask": 2,
+      "information": "late",
+      "operating": "9/40",
+      "full_price_root_total": "49/40"
+    },
+    {
+      "A": 0,
+      "mask": 2,
+      "information": "early",
+      "operating": "1/5",
+      "full_price_root_total": "261/200"
+    },
+    {
+      "A": 0,
+      "mask": 3,
+      "information": "opaque",
+      "operating": "0",
+      "full_price_root_total": "59/50"
+    },
+    {
+      "A": 0,
+      "mask": 3,
+      "information": "late",
+      "operating": "0",
+      "full_price_root_total": "59/50"
+    },
+    {
+      "A": 0,
+      "mask": 3,
+      "information": "early",
+      "operating": "0",
+      "full_price_root_total": "257/200"
+    },
+    {
+      "A": 1,
+      "mask": 0,
+      "information": "opaque",
+      "operating": "1/2",
+      "full_price_root_total": "41/100"
+    },
+    {
+      "A": 1,
+      "mask": 0,
+      "information": "late",
+      "operating": "2/5",
+      "full_price_root_total": "31/100"
+    },
+    {
+      "A": 1,
+      "mask": 0,
+      "information": "early",
+      "operating": "2/5",
+      "full_price_root_total": "83/200"
+    },
+    {
+      "A": 1,
+      "mask": 1,
+      "information": "opaque",
+      "operating": "7/20",
+      "full_price_root_total": "11/25"
+    },
+    {
+      "A": 1,
+      "mask": 1,
+      "information": "late",
+      "operating": "7/20",
+      "full_price_root_total": "11/25"
+    },
+    {
+      "A": 1,
+      "mask": 1,
+      "information": "early",
+      "operating": "1/5",
+      "full_price_root_total": "79/200"
+    },
+    {
+      "A": 1,
+      "mask": 2,
+      "information": "opaque",
+      "operating": "7/20",
+      "full_price_root_total": "63/50"
+    },
+    {
+      "A": 1,
+      "mask": 2,
+      "information": "late",
+      "operating": "7/20",
+      "full_price_root_total": "63/50"
+    },
+    {
+      "A": 1,
+      "mask": 2,
+      "information": "early",
+      "operating": "1/5",
+      "full_price_root_total": "243/200"
+    },
+    {
+      "A": 1,
+      "mask": 3,
+      "information": "opaque",
+      "operating": "0",
+      "full_price_root_total": "109/100"
+    },
+    {
+      "A": 1,
+      "mask": 3,
+      "information": "late",
+      "operating": "0",
+      "full_price_root_total": "109/100"
+    },
+    {
+      "A": 1,
+      "mask": 3,
+      "information": "early",
+      "operating": "0",
+      "full_price_root_total": "239/200"
+    }
+  ],
+  "perturbations": [
+    [
+      "999/10000",
+      "999/10000",
+      "4999/10000"
+    ],
+    [
+      "999/10000",
+      "999/10000",
+      "5001/10000"
+    ],
+    [
+      "999/10000",
+      "1001/10000",
+      "4999/10000"
+    ],
+    [
+      "999/10000",
+      "1001/10000",
+      "5001/10000"
+    ],
+    [
+      "1001/10000",
+      "999/10000",
+      "4999/10000"
+    ],
+    [
+      "1001/10000",
+      "999/10000",
+      "5001/10000"
+    ],
+    [
+      "1001/10000",
+      "1001/10000",
+      "4999/10000"
+    ],
+    [
+      "1001/10000",
+      "1001/10000",
+      "5001/10000"
+    ]
+  ]
+}

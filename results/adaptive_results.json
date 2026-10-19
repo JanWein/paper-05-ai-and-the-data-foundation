@@ -1,0 +1,535 @@
+{
+  "parameters": {
+    "q": 0.5,
+    "gamma": 0.5,
+    "Ls": 10.0,
+    "k": 1.0,
+    "tm": 1.0,
+    "ta": 2.0,
+    "dm": 4.0,
+    "da": 8.0,
+    "c": 10.0,
+    "S": 2.0,
+    "B": 2.2,
+    "h": 0.1,
+    "F": 1.7
+  },
+  "cells": {
+    "A0D0": {
+      "cost": 12.399999999999999,
+      "load": 2.2,
+      "adoption": 0.0,
+      "first": 1.0,
+      "propagation": 0.5,
+      "mix": [
+        {
+          "weight": 0.9000000000000004,
+          "mode": "C1P",
+          "actions": "((0, 1), (0, 1))",
+          "load": 2.25,
+          "cost": 12.25,
+          "adoption": 0.0,
+          "first": 1.0,
+          "propagation": 0.5
+        },
+        {
+          "weight": 0.09999999999999964,
+          "mode": "C1P",
+          "actions": "((0, 0), (0, 1))",
+          "load": 1.75,
+          "cost": 13.75,
+          "adoption": 0.0,
+          "first": 1.0,
+          "propagation": 0.5
+        }
+      ],
+      "lp_error": 0.0
+    },
+    "A0D1": {
+      "cost": 12.7,
+      "load": 1.1,
+      "adoption": 0.0,
+      "first": 0.0,
+      "propagation": 0.0,
+      "mix": [
+        {
+          "weight": 1.0,
+          "mode": "R",
+          "actions": "((0, 1),)",
+          "load": 1.1,
+          "cost": 12.7,
+          "adoption": 0.0,
+          "first": 0.0,
+          "propagation": 0.0
+        }
+      ],
+      "lp_error": 0.0
+    },
+    "A1D0": {
+      "cost": 12.399999999999999,
+      "load": 2.2,
+      "adoption": 0.0,
+      "first": 1.0,
+      "propagation": 0.5,
+      "mix": [
+        {
+          "weight": 0.9000000000000004,
+          "mode": "C1P",
+          "actions": "((0, 1), (0, 1))",
+          "load": 2.25,
+          "cost": 12.25,
+          "adoption": 0.0,
+          "first": 1.0,
+          "propagation": 0.5
+        },
+        {
+          "weight": 0.09999999999999964,
+          "mode": "C1P",
+          "actions": "((0, 0), (0, 1))",
+          "load": 1.75,
+          "cost": 13.75,
+          "adoption": 0.0,
+          "first": 1.0,
+          "propagation": 0.5
+        }
+      ],
+      "lp_error": 0.0
+    },
+    "A1D1": {
+      "cost": 11.7,
+      "load": 2.1,
+      "adoption": 1.0,
+      "first": 0.0,
+      "propagation": 0.0,
+      "mix": [
+        {
+          "weight": 1.0,
+          "mode": "R",
+          "actions": "((1, 1),)",
+          "load": 2.1,
+          "cost": 11.7,
+          "adoption": 1.0,
+          "first": 0.0,
+          "propagation": 0.0
+        }
+      ],
+      "lp_error": 0.0
+    }
+  },
+  "boundaries": {
+    "slack_null": {
+      "A0D0": {
+        "cost": 12.25,
+        "load": 2.25,
+        "adoption": 0.0,
+        "first": 1.0,
+        "propagation": 0.5,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "C1P",
+            "actions": "((0, 1), (0, 1))",
+            "load": 2.25,
+            "cost": 12.25,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 0.5
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A0D1": {
+        "cost": 12.7,
+        "load": 1.1,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((0, 1),)",
+            "load": 1.1,
+            "cost": 12.7,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D0": {
+        "cost": 11.25,
+        "load": 3.25,
+        "adoption": 1.0,
+        "first": 1.0,
+        "propagation": 0.5,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "C1P",
+            "actions": "((1, 1), (1, 1))",
+            "load": 3.25,
+            "cost": 11.25,
+            "adoption": 1.0,
+            "first": 1.0,
+            "propagation": 0.5
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D1": {
+        "cost": 11.7,
+        "load": 2.1,
+        "adoption": 1.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((1, 1),)",
+            "load": 2.1,
+            "cost": 11.7,
+            "adoption": 1.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      }
+    },
+    "zero_capacity": {
+      "A0D0": {
+        "cost": 24.0,
+        "load": 0.0,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "N",
+            "actions": "((0, 0),)",
+            "load": 0.0,
+            "cost": 24.0,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A0D1": null,
+      "A1D0": {
+        "cost": 24.0,
+        "load": 0.0,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "N",
+            "actions": "((0, 0),)",
+            "load": 0.0,
+            "cost": 24.0,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D1": null
+    },
+    "certain_clean": {
+      "A0D0": {
+        "cost": 11.0,
+        "load": 1.0,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "N",
+            "actions": "((0, 1),)",
+            "load": 1.0,
+            "cost": 11.0,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A0D1": {
+        "cost": 12.7,
+        "load": 1.1,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((0, 1),)",
+            "load": 1.1,
+            "cost": 12.7,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D0": {
+        "cost": 10.0,
+        "load": 2.0,
+        "adoption": 1.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "N",
+            "actions": "((1, 1),)",
+            "load": 2.0,
+            "cost": 10.0,
+            "adoption": 1.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D1": {
+        "cost": 11.7,
+        "load": 2.1,
+        "adoption": 1.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((1, 1),)",
+            "load": 2.1,
+            "cost": 11.7,
+            "adoption": 1.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      }
+    },
+    "certain_fault": {
+      "A0D0": {
+        "cost": 13.399999999999999,
+        "load": 2.2,
+        "adoption": 0.0,
+        "first": 1.0,
+        "propagation": 1.0,
+        "mix": [
+          {
+            "weight": 0.7000000000000002,
+            "mode": "C1P",
+            "actions": "((0, 0), (0, 1))",
+            "load": 2.5,
+            "cost": 12.5,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 1.0
+          },
+          {
+            "weight": 0.2999999999999998,
+            "mode": "C1P",
+            "actions": "((0, 0), (0, 0))",
+            "load": 1.5,
+            "cost": 15.5,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 1.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A0D1": {
+        "cost": 12.7,
+        "load": 1.1,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((0, 1),)",
+            "load": 1.1,
+            "cost": 12.7,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D0": {
+        "cost": 13.399999999999999,
+        "load": 2.2,
+        "adoption": 0.0,
+        "first": 1.0,
+        "propagation": 1.0,
+        "mix": [
+          {
+            "weight": 0.7000000000000002,
+            "mode": "C1P",
+            "actions": "((0, 0), (0, 1))",
+            "load": 2.5,
+            "cost": 12.5,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 1.0
+          },
+          {
+            "weight": 0.2999999999999998,
+            "mode": "C1P",
+            "actions": "((0, 0), (0, 0))",
+            "load": 1.5,
+            "cost": 15.5,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 1.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D1": {
+        "cost": 11.7,
+        "load": 2.1,
+        "adoption": 1.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((1, 1),)",
+            "load": 2.1,
+            "cost": 11.7,
+            "adoption": 1.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      }
+    },
+    "equivalent_resource": {
+      "A0D0": {
+        "cost": 12.25,
+        "load": 2.25,
+        "adoption": 0.0,
+        "first": 1.0,
+        "propagation": 0.5,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "C1P",
+            "actions": "((0, 1), (0, 1))",
+            "load": 2.25,
+            "cost": 12.25,
+            "adoption": 0.0,
+            "first": 1.0,
+            "propagation": 0.5
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A0D1": {
+        "cost": 12.25,
+        "load": 2.25,
+        "adoption": 0.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((0, 1),)",
+            "load": 2.25,
+            "cost": 12.25,
+            "adoption": 0.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D0": {
+        "cost": 11.25,
+        "load": 3.25,
+        "adoption": 1.0,
+        "first": 1.0,
+        "propagation": 0.5,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "C1P",
+            "actions": "((1, 1), (1, 1))",
+            "load": 3.25,
+            "cost": 11.25,
+            "adoption": 1.0,
+            "first": 1.0,
+            "propagation": 0.5
+          }
+        ],
+        "lp_error": 0.0
+      },
+      "A1D1": {
+        "cost": 11.25,
+        "load": 3.25,
+        "adoption": 1.0,
+        "first": 0.0,
+        "propagation": 0.0,
+        "mix": [
+          {
+            "weight": 1.0,
+            "mode": "R",
+            "actions": "((1, 1),)",
+            "load": 3.25,
+            "cost": 11.25,
+            "adoption": 1.0,
+            "first": 0.0,
+            "propagation": 0.0
+          }
+        ],
+        "lp_error": 0.0
+      }
+    }
+  },
+  "validation": {
+    "lp_comparisons": 538,
+    "max_abs_error": 7.105427357601002e-15,
+    "theorem_draws": 98,
+    "theorem_candidates": 100,
+    "theorem_accepted": 98,
+    "theorem_skipped": 2,
+    "comparison_decomposition": {
+      "main_cells": 4,
+      "accepted_draw_cells": 392,
+      "boundary_cells": 20,
+      "entry_grid_cells": 122
+    },
+    "skipped_candidates_are_failed_checks": false,
+    "policy_counts_noaccess": 18,
+    "policy_counts_access": 68,
+    "capacity": "expected only"
+  },
+  "adoption_thresholds": {
+    "unrepaired": 4,
+    "repaired": 1
+  }
+}

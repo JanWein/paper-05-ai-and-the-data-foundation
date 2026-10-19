@@ -1,0 +1,3771 @@
+{
+  "synthetic_only": true,
+  "exact_rational": true,
+  "main_cells": {
+    "A0D0": {
+      "hard": "55/4",
+      "expected": "62/5",
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        }
+      ]
+    },
+    "A0D1": {
+      "hard": "139/10",
+      "expected": "139/10",
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        }
+      ]
+    },
+    "A1D0": {
+      "hard": "55/4",
+      "expected": "62/5",
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        }
+      ]
+    },
+    "A1D1": {
+      "hard": "129/10",
+      "expected": "129/10",
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "129/10",
+          "cost1": "129/10",
+          "cost": "129/10",
+          "adoption": "1"
+        }
+      ]
+    }
+  },
+  "load_breakpoints": [
+    "0",
+    "1/10",
+    "1",
+    "11/10",
+    "3/2",
+    "2",
+    "21/10",
+    "5/2",
+    "3",
+    "7/2",
+    "4"
+  ],
+  "frontier_cell_checks": 588,
+  "tie_cases": [
+    {
+      "B": "0",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "24",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "0"
+        },
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1/20",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "24",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "0"
+        },
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1/10",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "24",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "0"
+        },
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1/10",
+      "S": "4",
+      "A": 1,
+      "d": 1,
+      "cost": "169/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/20",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "24",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "0"
+        },
+        {
+          "mode": "no_check",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "0",
+          "load1": "0",
+          "cost0": "14",
+          "cost1": "34",
+          "cost": "24",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/20",
+      "S": "4",
+      "A": 1,
+      "d": 1,
+      "cost": "169/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "0",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "0",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "1",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "2",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "2",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "4",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 8,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "4",
+      "A": 1,
+      "d": 1,
+      "cost": "169/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "5",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "5",
+      "A": 1,
+      "d": 0,
+      "cost": "19",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "7",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "17",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "8",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "1",
+      "S": "8",
+      "A": 1,
+      "d": 0,
+      "cost": "16",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "0",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "0",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "1",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "2",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "2",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "4",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 8,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "4",
+      "A": 1,
+      "d": 1,
+      "cost": "169/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "169/10",
+          "cost1": "169/10",
+          "cost": "169/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "5",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "5",
+      "A": 1,
+      "d": 0,
+      "cost": "19",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "7",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "17",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "8",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "21/20",
+      "S": "8",
+      "A": 1,
+      "d": 0,
+      "cost": "16",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "0",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "0",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "1",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "2",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "2",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "4",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 8,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "5",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "5",
+      "A": 1,
+      "d": 0,
+      "cost": "19",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "7",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "17",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "8",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "11/10",
+      "S": "8",
+      "A": 1,
+      "d": 0,
+      "cost": "16",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "0",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "0",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "1",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "2",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "2",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "4",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 8,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "5",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "5",
+      "A": 1,
+      "d": 0,
+      "cost": "19",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "14",
+          "cost1": "24",
+          "cost": "19",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "7",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "17",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "12",
+          "cost1": "22",
+          "cost": "17",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "8",
+      "A": 0,
+      "d": 0,
+      "cost": "20",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "15",
+          "cost1": "25",
+          "cost": "20",
+          "adoption": "0"
+        }
+      ]
+    },
+    {
+      "B": "13/10",
+      "S": "8",
+      "A": 1,
+      "d": 0,
+      "cost": "16",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "second",
+          "rule": "None",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'leave')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "1",
+          "cost0": "11",
+          "cost1": "21",
+          "cost": "16",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "3/2",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "61/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "3/2",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "7/4",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "61/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 0), (0, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (0, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "15",
+          "cost1": "31/2",
+          "cost": "61/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "7/4",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "2",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "55/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "2",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "2",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "41/20",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "55/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "41/20",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "41/20",
+      "S": "7",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 0),)",
+          "load0": "1/10",
+          "load1": "1/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/10",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "21/10",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "55/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "21/10",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "23/10",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "23/10",
+      "S": "4",
+      "A": 1,
+      "d": 0,
+      "cost": "55/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "31/2",
+          "cost": "55/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "23/10",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "5/2",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "5/2",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (0, 1))",
+          "load0": "1",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/4",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "11/4",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 0))",
+          "load0": "2",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (0, 1))",
+          "load0": "1",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 0), (1, 0))",
+          "load0": "1",
+          "load1": "3/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "3",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "3",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "3",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "37/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "6",
+          "cost1": "25/2",
+          "cost": "37/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (1, 0))",
+          "load0": "3",
+          "load1": "3/2",
+          "cost0": "6",
+          "cost1": "25/2",
+          "cost": "37/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/4",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        }
+      ]
+    },
+    {
+      "B": "13/4",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "13/4",
+      "S": "7",
+      "A": 1,
+      "d": 0,
+      "cost": "37/4",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "6",
+          "cost1": "25/2",
+          "cost": "37/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (1, 0))",
+          "load0": "3",
+          "load1": "3/2",
+          "cost0": "6",
+          "cost1": "25/2",
+          "cost": "37/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "7/2",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 1))",
+          "load0": "2",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (1, 1))",
+          "load0": "3",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "7/2",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "15/4",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 1))",
+          "load0": "2",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (1, 1))",
+          "load0": "3",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "15/4",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "4",
+      "S": "1",
+      "A": 1,
+      "d": 0,
+      "cost": "49/4",
+      "winner_count": 4,
+      "winners": [
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (0, 1))",
+          "load0": "2",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "0"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((0, 1), (1, 1))",
+          "load0": "2",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (0, 1))",
+          "load0": "3",
+          "load1": "5/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1/2"
+        },
+        {
+          "mode": "first",
+          "rule": "('leave', 'propagate')",
+          "actions": "((1, 1), (1, 1))",
+          "load0": "3",
+          "load1": "7/2",
+          "cost0": "12",
+          "cost1": "25/2",
+          "cost": "49/4",
+          "adoption": "1"
+        }
+      ]
+    },
+    {
+      "B": "4",
+      "S": "1",
+      "A": 1,
+      "d": 1,
+      "cost": "139/10",
+      "winner_count": 2,
+      "winners": [
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((0, 1),)",
+          "load0": "11/10",
+          "load1": "11/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "0"
+        },
+        {
+          "mode": "repair",
+          "rule": "None",
+          "actions": "((1, 1),)",
+          "load0": "21/10",
+          "load1": "21/10",
+          "cost0": "139/10",
+          "cost1": "139/10",
+          "cost": "139/10",
+          "adoption": "1"
+        }
+      ]
+    }
+  ],
+  "strip_frontier": [
+    {
+      "S": "0",
+      "unrepaired": "55/4",
+      "repair_threshold": "11/4",
+      "adoption_probabilities": [
+        "0"
+      ]
+    },
+    {
+      "S": "1",
+      "unrepaired": "55/4",
+      "repair_threshold": "11/4",
+      "adoption_probabilities": [
+        "0"
+      ]
+    },
+    {
+      "S": "2",
+      "unrepaired": "55/4",
+      "repair_threshold": "15/4",
+      "adoption_probabilities": [
+        "0"
+      ]
+    },
+    {
+      "S": "4",
+      "unrepaired": "55/4",
+      "repair_threshold": "23/4",
+      "adoption_probabilities": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "S": "5",
+      "unrepaired": "53/4",
+      "repair_threshold": "25/4",
+      "adoption_probabilities": [
+        "1/2"
+      ]
+    },
+    {
+      "S": "7",
+      "unrepaired": "49/4",
+      "repair_threshold": "29/4",
+      "adoption_probabilities": [
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "S": "8",
+      "unrepaired": "45/4",
+      "repair_threshold": "29/4",
+      "adoption_probabilities": [
+        "1"
+      ]
+    }
+  ],
+  "equal_expected_resource": [
+    {
+      "B": "2",
+      "hard": [
+        "55/4",
+        "61/4"
+      ],
+      "expected": [
+        "13",
+        "13"
+      ]
+    },
+    {
+      "B": "11/5",
+      "hard": [
+        "55/4",
+        "61/4"
+      ],
+      "expected": [
+        "62/5",
+        "62/5"
+      ]
+    },
+    {
+      "B": "9/4",
+      "hard": [
+        "55/4",
+        "49/4"
+      ],
+      "expected": [
+        "49/4",
+        "49/4"
+      ]
+    },
+    {
+      "B": "12/5",
+      "hard": [
+        "55/4",
+        "49/4"
+      ],
+      "expected": [
+        "49/4",
+        "49/4"
+      ]
+    },
+    {
+      "B": "5/2",
+      "hard": [
+        "49/4",
+        "49/4"
+      ],
+      "expected": [
+        "49/4",
+        "49/4"
+      ]
+    }
+  ],
+  "primitive_witness": {
+    "hard": [
+      "203/15",
+      "81/5"
+    ],
+    "expected": [
+      "63/5",
+      "63/5"
+    ]
+  }
+}

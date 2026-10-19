@@ -1,0 +1,22 @@
+{
+  "task_count": 96,
+  "pools": 8,
+  "cell_means": {
+    "00": -7.833333333333333,
+    "10": -6.916666666666667,
+    "01": -6.916666666666667,
+    "11": -5.666666666666667
+  },
+  "ITT_interaction": 0.3333333333333339,
+  "conservative_Neyman_SE": 1.0,
+  "approximate_t95": [
+    -2.4431117718644595,
+    3.1097784385311273
+  ],
+  "approximate_df": 4,
+  "global_sharp_null_p": 0.7428571428571429,
+  "randomization_method": "exhaustive global-sharp-null",
+  "assignment_space": 2520,
+  "warning": "Randomization p is NOT an exact test of zero factorial interaction allowing main effects.",
+  "evidence_status": "SYNTHETIC SOFTWARE TEST ONLY"
+}

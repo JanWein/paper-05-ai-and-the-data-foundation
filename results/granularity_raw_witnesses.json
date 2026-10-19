@@ -1,0 +1,650 @@
+[
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 1,
+    "A": 0,
+    "d": 0,
+    "source": "first:leave/propagate",
+    "cost": "55/4",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "1",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1",
+          "cost": "1"
+        },
+        "cost": "12"
+      },
+      {
+        "z": 1,
+        "source_load": "3/2",
+        "total_load": "3/2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "load": "0",
+          "cost": "4"
+        },
+        "cost": "31/2"
+      }
+    ]
+  },
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 1,
+    "A": 0,
+    "d": 1,
+    "source": "prior",
+    "cost": "61/4",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "5/4",
+        "total_load": "5/4",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "load": "0",
+          "cost": "4"
+        },
+        "cost": "61/4"
+      },
+      {
+        "z": 1,
+        "source_load": "5/4",
+        "total_load": "5/4",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ]
+          ],
+          "load": "0",
+          "cost": "4"
+        },
+        "cost": "61/4"
+      }
+    ]
+  },
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 4,
+    "A": 0,
+    "d": 0,
+    "source": "first:leave/propagate",
+    "cost": "13",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "1",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1",
+          "cost": "1"
+        },
+        "cost": "12"
+      },
+      {
+        "z": 1,
+        "source_load": "3/2",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1/2",
+          "cost": "5/2"
+        },
+        "cost": "14"
+      }
+    ]
+  },
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 4,
+    "A": 0,
+    "d": 1,
+    "source": "prior",
+    "cost": "13",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "5/4",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "3/4",
+          "cost": "7/4"
+        },
+        "cost": "13"
+      },
+      {
+        "z": 1,
+        "source_load": "5/4",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "3/4",
+          "cost": "7/4"
+        },
+        "cost": "13"
+      }
+    ]
+  },
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 7,
+    "A": 0,
+    "d": 0,
+    "source": "first:leave/propagate",
+    "cost": "361/28",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "1",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1",
+          "cost": "1"
+        },
+        "cost": "12"
+      },
+      {
+        "z": 1,
+        "source_load": "3/2",
+        "total_load": "29/14",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "4/7",
+          "cost": "16/7"
+        },
+        "cost": "193/14"
+      }
+    ]
+  },
+  {
+    "scenario": "matched_mean_no_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "5/4",
+      "F": "5/4"
+    },
+    "B": "11/5",
+    "n": 7,
+    "A": 0,
+    "d": 1,
+    "source": "prior",
+    "cost": "355/28",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "5/4",
+        "total_load": "59/28",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "6/7",
+          "cost": "10/7"
+        },
+        "cost": "355/28"
+      },
+      {
+        "z": 1,
+        "source_load": "5/4",
+        "total_load": "59/28",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "6/7",
+          "cost": "10/7"
+        },
+        "cost": "355/28"
+      }
+    ]
+  },
+  {
+    "scenario": "cheap_validation_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "1/10",
+      "F": "5/2"
+    },
+    "B": "11/5",
+    "n": 4,
+    "A": 1,
+    "d": 0,
+    "source": "first:leave/propagate",
+    "cost": "13",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "1",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1",
+          "cost": "1"
+        },
+        "cost": "12"
+      },
+      {
+        "z": 1,
+        "source_load": "3/2",
+        "total_load": "2",
+        "recipient": {
+          "actions": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "load": "1/2",
+          "cost": "5/2"
+        },
+        "cost": "14"
+      }
+    ]
+  },
+  {
+    "scenario": "cheap_validation_access",
+    "parameters": {
+      "q": "1/2",
+      "g": "1/2",
+      "Ls": "10",
+      "k": "1",
+      "tm": "1",
+      "ta": "2",
+      "dm": "4",
+      "da": "8",
+      "c": "10",
+      "S": "2",
+      "h": "1/10",
+      "F": "5/2"
+    },
+    "B": "11/5",
+    "n": 4,
+    "A": 1,
+    "d": 1,
+    "source": "prior",
+    "cost": "25/2",
+    "branches": [
+      {
+        "z": 0,
+        "source_load": "1/10",
+        "total_load": "21/10",
+        "recipient": {
+          "actions": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "load": "2",
+          "cost": "0"
+        },
+        "cost": "25/2"
+      },
+      {
+        "z": 1,
+        "source_load": "1/10",
+        "total_load": "21/10",
+        "recipient": {
+          "actions": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "load": "2",
+          "cost": "0"
+        },
+        "cost": "25/2"
+      }
+    ]
+  }
+]
