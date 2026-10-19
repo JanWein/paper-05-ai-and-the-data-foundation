@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this research or its code."
+type: article
+title: "AI and the Data Foundation: Provenance Before Verification: Timing, Repair Coverage, and Adoption"
+authors:
+  - family-names: Weinert
+    given-names: Jan-Hendrik
+    name-particle: ""
+version: "F1"
+date-released: 2026-10-19
+url: "https://github.com/JanWein/paper-05-ai-and-the-data-foundation"
